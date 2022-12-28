@@ -406,11 +406,11 @@ footer{
     background: radial-gradient(696.2% 730.65% at 47.6% 26.27%, rgba(24, 26, 25, 0.5) 0%, rgba(36, 40, 43, 0.5) 68.62%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     box-shadow: 0px -7px 16px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
-    width: 1920px;
     height: 400px;
 }
 .sada{
     display: flex;
+    justify-content: center;
 }
 .footer-logo{
     margin-top: 32px;
@@ -474,14 +474,15 @@ footer{
     line-height: 21px;  
     text-align: center;
     color: #A8A8A8;
+    margin-left: -25px;
 }
 .niz-footer{
     align-items: center;
     margin-left: 40px;
     border-top: 1px solid #323232;
-    width: 1800px;
     height: 71px;
     display: flex;
+    justify-content: center;
 }
 .socials{
     margin-left: 453px;
